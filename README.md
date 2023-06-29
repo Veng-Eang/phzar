@@ -1,2 +1,2 @@
 # shopme
-Referential Project for Shopme eCommerce Application
+Referential Project for phzar eCommerce Application
