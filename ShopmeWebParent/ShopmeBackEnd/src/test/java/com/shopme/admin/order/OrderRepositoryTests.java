@@ -17,6 +17,7 @@ import org.springframework.boot.test.autoconfigure.orm.jpa.DataJpaTest;
 import org.springframework.boot.test.autoconfigure.orm.jpa.TestEntityManager;
 import org.springframework.test.annotation.Rollback;
 
+import com.shopme.admin.repositories.OrderRepository;
 import com.shopme.common.entity.Customer;
 import com.shopme.common.entity.order.Order;
 import com.shopme.common.entity.order.OrderDetail;

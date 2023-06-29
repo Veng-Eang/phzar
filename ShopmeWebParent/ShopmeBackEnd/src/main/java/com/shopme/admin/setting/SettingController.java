@@ -16,7 +16,7 @@ import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.multipart.MultipartFile;
 import org.springframework.web.servlet.mvc.support.RedirectAttributes;
 
-import com.shopme.admin.AmazonS3Util;
+import com.shopme.admin.utility.AmazonS3Util;
 import com.shopme.common.Constants;
 import com.shopme.common.entity.Currency;
 import com.shopme.common.entity.setting.Setting;

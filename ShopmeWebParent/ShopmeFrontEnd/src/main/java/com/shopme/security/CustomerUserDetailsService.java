@@ -6,7 +6,7 @@ import org.springframework.security.core.userdetails.UserDetailsService;
 import org.springframework.security.core.userdetails.UsernameNotFoundException;
 
 import com.shopme.common.entity.Customer;
-import com.shopme.customer.CustomerRepository;
+import com.shopme.repositories.CustomerRepository;
 
 public class CustomerUserDetailsService implements UserDetailsService {
 	

@@ -14,9 +14,12 @@ import org.mockito.junit.jupiter.MockitoExtension;
 import org.springframework.boot.test.mock.mockito.MockBean;
 import org.springframework.test.context.junit.jupiter.SpringExtension;
 
-import com.shopme.admin.product.ProductRepository;
+import com.shopme.admin.repositories.ProductRepository;
+import com.shopme.admin.repositories.ShippingRateRepository;
+import com.shopme.admin.services.ShippingRateService;
 import com.shopme.common.entity.ShippingRate;
 import com.shopme.common.entity.product.Product;
+import com.shopme.common.exception.ShippingRateNotFoundException;
 
 @ExtendWith(MockitoExtension.class)
 @ExtendWith(SpringExtension.class)

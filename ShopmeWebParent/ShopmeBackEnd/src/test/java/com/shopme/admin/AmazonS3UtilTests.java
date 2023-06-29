@@ -7,6 +7,8 @@ import java.util.List;
 
 import org.junit.jupiter.api.Test;
 
+import com.shopme.admin.utility.AmazonS3Util;
+
 public class AmazonS3UtilTests {
 
 	@Test

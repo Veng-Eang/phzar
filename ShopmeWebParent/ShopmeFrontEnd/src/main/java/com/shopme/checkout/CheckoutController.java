@@ -17,9 +17,6 @@ import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PostMapping;
 
-import com.shopme.ControllerHelper;
-import com.shopme.Utility;
-import com.shopme.address.AddressService;
 import com.shopme.checkout.paypal.PayPalApiException;
 import com.shopme.checkout.paypal.PayPalService;
 import com.shopme.common.entity.Address;
@@ -28,13 +25,16 @@ import com.shopme.common.entity.Customer;
 import com.shopme.common.entity.ShippingRate;
 import com.shopme.common.entity.order.Order;
 import com.shopme.common.entity.order.PaymentMethod;
-import com.shopme.order.OrderService;
+import com.shopme.controllers.ControllerHelper;
+import com.shopme.services.AddressService;
+import com.shopme.services.OrderService;
+import com.shopme.services.ShippingRateService;
+import com.shopme.services.ShoppingCartService;
 import com.shopme.setting.CurrencySettingBag;
 import com.shopme.setting.EmailSettingBag;
 import com.shopme.setting.PaymentSettingBag;
 import com.shopme.setting.SettingService;
-import com.shopme.shipping.ShippingRateService;
-import com.shopme.shoppingcart.ShoppingCartService;
+import com.shopme.utility.Utility;
 
 @Controller
 public class CheckoutController {

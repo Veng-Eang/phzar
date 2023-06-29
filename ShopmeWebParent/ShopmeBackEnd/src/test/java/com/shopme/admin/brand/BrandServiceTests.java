@@ -10,6 +10,8 @@ import org.mockito.junit.jupiter.MockitoExtension;
 import org.springframework.boot.test.mock.mockito.MockBean;
 import org.springframework.test.context.junit.jupiter.SpringExtension;
 
+import com.shopme.admin.repositories.BrandRepository;
+import com.shopme.admin.services.BrandService;
 import com.shopme.common.entity.Brand;
 
 @ExtendWith(MockitoExtension.class)

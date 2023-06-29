@@ -16,6 +16,7 @@ import org.springframework.test.annotation.Rollback;
 
 import com.shopme.common.entity.Review;
 import com.shopme.common.entity.product.Product;
+import com.shopme.repositories.ReviewRepository;
 
 @DataJpaTest
 @AutoConfigureTestDatabase(replace = Replace.NONE)

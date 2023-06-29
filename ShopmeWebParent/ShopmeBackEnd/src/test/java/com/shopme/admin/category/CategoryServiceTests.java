@@ -10,6 +10,8 @@ import org.mockito.junit.jupiter.MockitoExtension;
 import org.springframework.boot.test.mock.mockito.MockBean;
 import org.springframework.test.context.junit.jupiter.SpringExtension;
 
+import com.shopme.admin.repositories.CategoryRepository;
+import com.shopme.admin.services.CategoryService;
 import com.shopme.common.entity.Category;
 
 @ExtendWith(MockitoExtension.class)
